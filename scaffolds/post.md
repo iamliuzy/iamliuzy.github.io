@@ -4,6 +4,8 @@ date: {{ date }}
 tags:
 ---
 
+
+
 <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
 <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
 <div id="gitalk-container"></div>
@@ -15,6 +17,7 @@ tags:
       owner: 'iamliuzy',
       admin: ['iamliuzy'],
       id: location.pathname,      // Ensure uniqueness and length less than 50
+      body: location.href
       distractionFreeMode: false  // Facebook-like distraction free mode
     });
     gitalk.render('gitalk-container')
