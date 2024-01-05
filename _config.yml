@@ -8,9 +8,7 @@ subtitle: 'Steve108 shares his ideas here.'
 description: 'Minecraft, railway and coding.'
 keywords: Minecraft, railway, coding
 author: Steve108
-language: 
-- zh-cn
-- en
+language: zh-CN
 timezone: 'Asia/Shanghai'
 
 # URL
@@ -98,7 +96,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: fluid
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
