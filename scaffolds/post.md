@@ -17,7 +17,7 @@ tags:
       owner: 'iamliuzy',
       admin: ['iamliuzy'],
       id: location.pathname,      // Ensure uniqueness and length less than 50
-      body: location.href
+      body: location.href,
       distractionFreeMode: false  // Facebook-like distraction free mode
     });
     gitalk.render('gitalk-container')
