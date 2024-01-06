@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Steve108's Blog
-subtitle: 'Steve108 shares his ideas here.'
+title: Steve108 的博客
+subtitle: '使用Hexo和GitHub Pages搭建的博客'
 description: 'Minecraft, railway and coding.'
 keywords: Minecraft, railway, coding
-author: Steve108
+author: Steve108(iamliuzy)
 language: zh-CN
 timezone: 'Asia/Shanghai'
 

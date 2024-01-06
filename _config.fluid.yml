@@ -422,11 +422,11 @@ footer:
   beian:
     enable: false
     # ICP证号
-    icp_text: 京ICP证123456号
+    icp_text: 
     # 公安备案号，不填则只显示ICP
-    police_text: 京公网安备12345678号
+    police_text: 
     # 公安备案的编号，用于URL跳转查询
-    police_code: 12345678
+    police_code: 
     # 公安备案的图片. 为空时不显示备案图片
     police_icon: /img/police_beian.png
 
@@ -572,7 +572,7 @@ post:
 
     # 是否使用相对时间表示，比如："3 天前"
     # If true, it will be a relative time, such as: "3 days ago"
-    relative: false
+    relative: true
 
     # 提示标签类型
     # Note class
@@ -666,7 +666,7 @@ post:
   # 脚注语法，会在文章底部生成脚注，如果 Markdown 渲染器本身支持，则建议关闭，否则可能会冲突
   # Support footnote syntax, footnotes will be generated at the bottom of the post page. If the Markdown renderer itself supports it, please disable it, otherwise it may conflict
   footnote:
-    enable: true
+    enable: false
     # 脚注的节标题，也可以在 front-matter 中通过 `footnote: <h2>Reference</h2>` 这种形式修改单独页面的 header
     # The section title of the footnote, you can also modify the header of a single page in the form of `footnote: <h2>Reference</h2>` in front-matter
     header: ''
@@ -676,25 +676,25 @@ post:
   math:
     # 开启后文章默认可用，自定义页面如需使用，需在 Front-matter 中指定 `math: true`
     # If you want to use math on the custom page, you need to set `math: true` in Front-matter
-    enable: false
+    enable: true
 
     # 开启后，只有在文章 Front-matter 里指定 `math: true` 才会在文章页启动公式转换，以便在页面不包含公式时提高加载速度
     # If true, only set `math: true` in Front-matter will enable math, to load faster when the page does not contain math
-    specific: false
+    specific: true
 
     # Options: mathjax | katex
-    engine: mathjax
+    engine: katex
 
   # 流程图，基于 mermaid-js，具体请见：https://hexo.fluid-dev.com/docs/guide/#mermaid-流程图
   # Flow chart, based on mermaid-js, see: https://hexo.fluid-dev.com/docs/en/guide/#mermaid
   mermaid:
     # 开启后文章默认可用，自定义页面如需使用，需在 Front-matter 中指定 `mermaid: true`
     # If you want to use mermaid on the custom page, you need to set `mermaid: true` in Front-matter
-    enable: false
+    enable: true
 
     # 开启后，只有在文章 Front-matter 里指定 `mermaid: true` 才会在文章页启动公式转换，以便在页面不包含公式时提高加载速度
     # If true, only set `mermaid: true` in Front-matter will enable mermaid, to load faster when the page does not contain mermaid
-    specific: false
+    specific: true
 
     # See: http://mermaid-js.github.io/mermaid/
     options: { theme: 'default' }
@@ -706,7 +706,7 @@ post:
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis | giscus | discuss
-    type: disqus
+    type: giscus
 
 
 #---------------------------
@@ -849,11 +849,11 @@ cusdis:
 giscus:
   repo: "iamliuzy/iamliuzy.github.io"
   repo-id: "R_kgDOLBNM_g"
-  category: "Announcements"
-  category-id: "DIC_kwDOLBNM_s4CcOJV"
+  category: "Comments"
+  category-id: "DIC_kwDOLBNM_s4CcOJn"
   theme-light: light
   theme-dark: dark
-  mapping: pathname
+  mapping: "og:title"
   reactions-enabled: 1
   emit-metadata: 0
   input-position: top
@@ -1015,11 +1015,11 @@ links:
   # 评论插件
   # Comment plugin
   comments:
-    enable: false
+    enable: true
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis | giscus | discuss
-    type: disqus
+    type: gisgus
 
 
 #---------------------------
