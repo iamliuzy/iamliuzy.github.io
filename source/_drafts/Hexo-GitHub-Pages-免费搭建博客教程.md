@@ -72,3 +72,36 @@ Hexo 版本范围与 Node.js 的版本范围如下表所示
 （本段资料改写自 [Hexo 文档](https://hexo.io/zh-cn/docs/#Node-js-%E7%89%88%E6%9C%AC%E9%99%90%E5%88%B6)）
 
 {% endfold %}
+
+### 1.2.搭建 Hexo 博客
+
+#### 1.2.1.新建博客
+
+在命令行中，`cd` 进你打算新建博客的目录，执行
+
+```batch
+npx hexo init
+```
+
+新建博客。
+
+执行
+
+```batch
+npm install
+```
+
+安装所需依赖。
+
+新建好的博客目录结构如图
+
+.  
+├── _config.yml  
+├── package.json  
+├── scaffolds  
+├── source  
+│    ├── _drafts  
+│    └── _posts  
+└── themes
+
+
