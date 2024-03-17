@@ -50,9 +50,9 @@ npm install -g hexo-cli
 安装 Hexo 博客引擎和命令行工具。
 
 {% fold info @如果你坚持使用旧的 Node.js…… %}
-你可以考虑安装 Hexo 的过去版本。但请注意，目前官方已停止提供对过去版本 Hexo 的错误修复。
+你可以考虑安装 Hexo 的过去版本。但请注意，目前官方**已停止提供**对过去版本 Hexo 的错误修复。
 
-我强烈建议永远安装[最新版本](https://www.npmjs.com/package/hexo?activeTab=versions)的 Hexo，以及[推荐的 Node.js 版本](https://hexo.io/zh-cn/docs/#%E5%AE%89%E8%A3%85%E5%89%8D%E6%8F%90)。
+我强烈建议**永远安装**[**最新版本**](https://www.npmjs.com/package/hexo?activeTab=versions)的 Hexo，以及[**推荐的 Node.js 版本**](https://hexo.io/zh-cn/docs/#%E5%AE%89%E8%A3%85%E5%89%8D%E6%8F%90)。
 
 Hexo 版本范围与 Node.js 的版本范围如下表所示
 
@@ -77,7 +77,7 @@ Hexo 版本范围与 Node.js 的版本范围如下表所示
 
 #### 1.2.1.新建博客
 
-在命令行中，`cd` 进你打算新建博客的目录，执行
+在命令行中，进入你打算新建博客的目录，执行
 
 ```batch
 npx hexo init
@@ -93,15 +93,20 @@ npm install
 
 安装所需依赖。
 
-新建好的博客目录结构如图
+新建好的博客目录结构如下：
 
-.  
-├── _config.yml  
-├── package.json  
-├── scaffolds  
-├── source  
-│    ├── _drafts  
-│    └── _posts  
-└── themes
+![博客目录结构](Hexo-GitHub-Pages-免费搭建博客教程/hexo-folder-example.png "博客目录结构")
+
+其中：
+
+- `.github` 中包含 DependaBot 配置文件，无需修改
+- `node_modules` 存放 Node.js 模块，无需修改
+- `scaffolds` 存放模板文件
+- `source` 是博客内容的源文件
+- `themes` 存放主题
+- `.gitignore` 是 Git 配置文件，一般无需修改
+- `_config.landscape.yml` 是默认主题 Landscape 的配置文件
+- `_config.yml` 是博客基本信息配置文件
+- `package.json` 和 `pnpm-lock.yaml` 无需修改
 
 
