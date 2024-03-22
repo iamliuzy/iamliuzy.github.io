@@ -105,8 +105,24 @@ npm install
 - `source` 是博客内容的源文件
 - `themes` 存放主题
 - `.gitignore` 是 Git 配置文件，一般无需修改
-- `_config.landscape.yml` 是默认主题 Landscape 的配置文件
+- `_config.landscape.yml` 是默认主题 Landscape 的配置文件，以后安装主题时出现的 `_config.<theme-name>.yml` 就是名为 \<theme-name\> 的主题的配置文件。
 - `_config.yml` 是博客基本信息配置文件
 - `package.json` 和 `pnpm-lock.yaml` 无需修改
+
+此时，执行
+
+```batch
+hexo server -p 80 // 在 80 端口启动博客服务器
+```
+
+并打开浏览器，访问 `http://localhost`，即可看到如下页面：
+
+![示例博客页面](Hexo-GitHub-Pages-免费搭建博客教程/hexo-blog-example.png "示例博客页面")
+
+说明服务器已经成功启动，博客新建完成。
+
+回到命令行，按下 `Ctrl + C` 快捷键停止服务器。
+
+#### 1.2.2.配置主题
 
 
