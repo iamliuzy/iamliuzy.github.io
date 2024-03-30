@@ -1,7 +1,9 @@
 ---
 title: 记 MC 打油诗一首
 date: 2024-03-29 19:00:15
-tags: Minecraft
+tags: 
+- Minecraft
+- 转载
 ---
 
 今天在知乎上看到一首关于 MC 的 BUG 的打油诗，[原文在此](https://www.zhihu.com/question/68140526/answer/261017094)。
