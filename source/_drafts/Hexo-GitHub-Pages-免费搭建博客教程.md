@@ -1,7 +1,7 @@
 ---
-title: Hexo + GitHub Pages 免费搭建博客教程
+title: Hexo + GitHub Pages 搭建博客笔记
 tags:
-  - 教程
+  - 笔记
 date: 2024-01-11 15:05:07
 ---
 
