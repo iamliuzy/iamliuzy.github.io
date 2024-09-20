@@ -5,9 +5,11 @@ tags:
 - 编程
 ---
 
-<video controls>
+<video controls width=500>
 <source src="https://github.com/iamliuzy/iamliuzy.github.io/raw/main/source/_posts/Windows-11%E7%9A%84%E4%B8%80%E4%B8%AA%E7%A6%BB%E8%B0%B1bug/output.mp4" type="video/mp4" />
 </video>
+
+> 若
 
 明明中文(简体，中国)、英语(美国)、波兰语都装了相应输入法，为何只能安装额外输入法才能显示输入法切换栏？
 
