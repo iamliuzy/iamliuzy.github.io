@@ -940,10 +940,11 @@ about:
   # More icons can be found from https://hexo.fluid-dev.com/docs/en/icon/  `class` is the css class of the icon. If adding `qrcode`, The icon is no longer a link, but a hovering QR code
   icons:
     - { class: "iconfont icon-github-fill", link: "https://github.com/iamliuzy", tip: "GitHub" }
-    - { class: "iconfont icon-bilibili-fill", link: "https://space.bilibili.com/627767253", tip: "Bilibili" }
+    - { class: "iconfont icon-bilibili-fill", link: "https://space.bilibili.com/627767253", tip: "Bilibili | 哔哩哔哩" }
     - { class: "iconfont icon-youtube-fill", link: "https://www.youtube.com/@Steve-wd6is", tip: "Youtube" }
     - { class: "iconfont icon-steam", link: "https://steamcommunity.com/profiles/76561199347361375/", tip: "Steam" }
-    - { class: "iconfont icon-mail", link: "mailto:liuzhiyu.sh@outlook.com", tip: "E-mail" }
+    - { class: "iconfont icon-mail", link: "mailto:liuzhiyu.sh@outlook.com", tip: "E-mail | 电子邮箱" }
+    - { class: "iconfont icon-book", link: "https://zh.wikipedia.org/wiki/User:Liuzhiyu.sh", tip: "Wikipedia | 维基百科"}
 
 
 #---------------------------
