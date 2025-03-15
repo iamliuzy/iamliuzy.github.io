@@ -852,7 +852,7 @@ giscus:
   category: "Comments"
   category-id: "DIC_kwDOLBNM_s4CcOJn"
   theme-light: light
-  theme-dark: dark_dimmed
+  theme-dark: dark
   mapping: "og:title"
   reactions-enabled: 1
   emit-metadata: 0
