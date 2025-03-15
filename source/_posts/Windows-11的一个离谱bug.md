@@ -5,7 +5,7 @@ tags:
 - 编程
 ---
 
-<video controls>
+<video controls width=100%>
 <source src="https://github.com/iamliuzy/iamliuzy.github.io/raw/main/source/_posts/Windows-11%E7%9A%84%E4%B8%80%E4%B8%AA%E7%A6%BB%E8%B0%B1bug/output.mp4" type="video/mp4" />
 </video>
 
