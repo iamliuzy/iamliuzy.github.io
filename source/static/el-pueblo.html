@@ -32,21 +32,35 @@
             词曲：塞尔吉奥·奥尔特加·阿尔瓦拉多
         </p>
 
-        <p id="a" style="display: none;">
+        <p id="a" class="a" style="display: none;">
             纪念智利总统萨尔瓦多·阿连德同志
         </p>
 
+        <img class="a" style="display: none;" src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Salvador_Allende_Gossens-.jpg" />
+
+        <p class="a" style="display: none;">作者 <a rel="nofollow" class="external text" href="http://biografias.bcn.cl/wiki/Portada">Biblioteca del Congreso Nacional de Chile</a> - <a rel="nofollow" class="external free" href="http://biografias.bcn.cl/images/archive/e/e4/20100610165107!Salvador_Allende_Gossens.jpg">http://biografias.bcn.cl/images/archive/e/e4/20100610165107!Salvador_Allende_Gossens.jpg</a>，<a href="https://creativecommons.org/licenses/by/3.0/cl/deed.en" title="Creative Commons Attribution 3.0 cl">CC BY 3.0 cl</a>，<a href="https://commons.wikimedia.org/w/index.php?curid=16325518">链接</a></p>
+
+        <hr class="a" style="display: none;" />
+
         <script>
             var shown = false
+            var elms = document.getElementsByClassName("a")
             var show = function () {
                 if (shown == false) {
-                    document.getElementById("a").setAttribute("style", "")
+                    for (var i = 0; i < elms.length; i++) {
+                        elms.item(i).setAttribute("style", "");
+                    }
                     shown = true
                 } else {
-                    document.getElementById("a").setAttribute("style", "display: none;")
+                    for (var i = 0; i < elms.length; i++) {
+                        elms.item(i).setAttribute("style", "display: none;")
+                    }
                     shown = false
                 }
             }
+
+            date = new Date()
+            document.getElementById("a").innerText = "纪念智利总统萨尔瓦多·阿连德同志逝世 " + (date.getFullYear() - 1973) + " 周年"
         </script>
 
         <p>
