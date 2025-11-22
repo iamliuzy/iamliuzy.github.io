@@ -217,7 +217,7 @@ custom_js:
 
 # 指定自定义 .css 文件路径，用法和 custom_js 相同
 # The usage is the same as custom_js
-custom_css: video.css
+custom_css:
 
 # 网页访问统计
 # Analysis of website visitors
@@ -253,7 +253,7 @@ web_analytics:  # 网页访问统计
     # 如果你在一个分阶段、开发的环境中工作，这会很有帮助。避免统计 localhost。
     # If you want the tracker to only run on specific domains, you can add them to your tracker script. This is a comma delimited list of domain names. 
     # Helps if you are working in a staging/development environment. Avoids tracking localhost.
-    data_domains: 
+    data_domains: iamliuzy.github.io
     # 在 web_analytics 处开启遵循访客浏览器"请勿追踪"的设置，如果开启则不统计其访问
 
   # 腾讯统计的 H5 App ID，开启高级功能才有cid
@@ -344,7 +344,6 @@ navbar:
     - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
     - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
-    - { key: "static", name: "静态 HTML 页面", link: "/static/", icon: "iconfont icon-code" }
     #- { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
 
 # 搜索功能，基于 hexo-generator-search 插件，若已安装其他搜索插件请关闭此功能，以避免生成多余的索引文件
