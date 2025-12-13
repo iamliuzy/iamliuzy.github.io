@@ -2,6 +2,8 @@
 title: Python 进阶讲义（一）：基础知识
 tags:
   - 笔记
+category:
+  - Python 进阶讲义
 ---
 
 <!-- more -->
