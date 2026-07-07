@@ -219,7 +219,7 @@ custom_js:
 # The usage is the same as custom_js
 custom_css:
 
-custom_html: '<script src="https://keepandroidopen.org/banner.js?lang=zh"></script><a href="https://keepandroidopen.org/zh-CN/">支持自由的安卓<a>'
+custom_html: '<script src="https://keepandroidopen.org/banner.js?lang=zh"></script>'
 
 # 网页访问统计
 # Analysis of website visitors
@@ -422,7 +422,8 @@ footer:
   content: '
     <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
     <i class="iconfont icon-love"></i>
-    <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a>
+    <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a><br />
+    <a href="https://keepandroidopen.org/zh-CN/">支持自由的安卓<a>
   '
 
   # 展示网站的 PV、UV 统计数
