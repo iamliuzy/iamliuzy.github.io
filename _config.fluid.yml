@@ -219,6 +219,8 @@ custom_js:
 # The usage is the same as custom_js
 custom_css:
 
+custom_html: '<script src="https://keepandroidopen.org/banner.js?lang=zh"></script>'
+
 # 网页访问统计
 # Analysis of website visitors
 web_analytics:  # 网页访问统计
