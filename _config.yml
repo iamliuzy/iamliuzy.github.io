@@ -30,7 +30,7 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
   - google66ee6d10467a75a8.html
-  - .well-known/fluxer-verification.txt
+  - ./.well-known/fluxer-verification.txt
 
 # Writing
 new_post_name: :title.md # File name of new posts
